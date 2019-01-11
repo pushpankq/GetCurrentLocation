@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		97DD5BFF21E9285200778E35 /* DrawRouteOnMapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawRouteOnMapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DD5BFF21E9285200778E35 /* GetCurrentLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetCurrentLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DD5C0221E9285200778E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97DD5C0421E9285200778E35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97DD5C0721E9285200778E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		97DD5BF621E9285200778E35 = {
 			isa = PBXGroup;
 			children = (
-				97DD5C0121E9285200778E35 /* DrawRouteOnMapKit */,
+				97DD5C0121E9285200778E35 /* GetCurrentLocation */,
 				97DD5C0021E9285200778E35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		97DD5C0021E9285200778E35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97DD5BFF21E9285200778E35 /* DrawRouteOnMapKit.app */,
+				97DD5BFF21E9285200778E35 /* GetCurrentLocation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		97DD5C0121E9285200778E35 /* DrawRouteOnMapKit */ = {
+		97DD5C0121E9285200778E35 /* GetCurrentLocation */ = {
 			isa = PBXGroup;
 			children = (
 				97DD5C0221E9285200778E35 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				97DD5C0B21E9285400778E35 /* LaunchScreen.storyboard */,
 				97DD5C0E21E9285400778E35 /* Info.plist */,
 			);
-			path = DrawRouteOnMapKit;
+			path = GetCurrentLocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97DD5BFE21E9285200778E35 /* DrawRouteOnMapKit */ = {
+		97DD5BFE21E9285200778E35 /* GetCurrentLocation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97DD5C1121E9285400778E35 /* Build configuration list for PBXNativeTarget "DrawRouteOnMapKit" */;
+			buildConfigurationList = 97DD5C1121E9285400778E35 /* Build configuration list for PBXNativeTarget "GetCurrentLocation" */;
 			buildPhases = (
 				97DD5BFB21E9285200778E35 /* Sources */,
 				97DD5BFC21E9285200778E35 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = DrawRouteOnMapKit;
+			name = GetCurrentLocation;
 			productName = DrawRouteOnMapKit;
-			productReference = 97DD5BFF21E9285200778E35 /* DrawRouteOnMapKit.app */;
+			productReference = 97DD5BFF21E9285200778E35 /* GetCurrentLocation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97DD5BFA21E9285200778E35 /* Build configuration list for PBXProject "DrawRouteOnMapKit" */;
+			buildConfigurationList = 97DD5BFA21E9285200778E35 /* Build configuration list for PBXProject "GetCurrentLocation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97DD5BFE21E9285200778E35 /* DrawRouteOnMapKit */,
+				97DD5BFE21E9285200778E35 /* GetCurrentLocation */,
 			);
 		};
 /* End PBXProject section */
@@ -283,12 +283,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DrawRouteOnMapKit/Info.plist;
+				INFOPLIST_FILE = GetCurrentLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pushpank.DrawRouteOnMapKit;
+				PRODUCT_BUNDLE_IDENTIFIER = pushpank.GetCurrentLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +300,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DrawRouteOnMapKit/Info.plist;
+				INFOPLIST_FILE = GetCurrentLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pushpank.DrawRouteOnMapKit;
+				PRODUCT_BUNDLE_IDENTIFIER = pushpank.GetCurrentLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97DD5BFA21E9285200778E35 /* Build configuration list for PBXProject "DrawRouteOnMapKit" */ = {
+		97DD5BFA21E9285200778E35 /* Build configuration list for PBXProject "GetCurrentLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97DD5C0F21E9285400778E35 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97DD5C1121E9285400778E35 /* Build configuration list for PBXNativeTarget "DrawRouteOnMapKit" */ = {
+		97DD5C1121E9285400778E35 /* Build configuration list for PBXNativeTarget "GetCurrentLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97DD5C1221E9285400778E35 /* Debug */,
