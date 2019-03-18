@@ -49,8 +49,7 @@ extension ViewController: CLLocationManagerDelegate {
         
         self.mapView.setRegion(region, animated: true)
     }
-    
-    
+   
     // If could not Access the current Location
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Enable to update your current location ")
